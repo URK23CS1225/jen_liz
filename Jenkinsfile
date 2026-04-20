@@ -2,7 +2,7 @@ pipeline{
     agent any
     environment{
         IMAGE_NAME="myapp"
-        DOCKER_HUB_USER="caro26lina"
+        DOCKER_HUB_USER="lizz775"
         FULL_IMAGE="${DOCKER_HUB_USER}/${IMAGE_NAME}:latest"
     }
     stages{
